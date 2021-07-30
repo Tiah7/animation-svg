@@ -1,0 +1,47 @@
+svg {
+    height: 800px;
+}
+
+#enveloppe {
+    animation : flying 2s linear infinite;
+}
+
+@keyframes flying {
+    0% {
+        transform: translate(0px , 0px);
+    }
+    25% {
+        transform: translate(10px , 10px);
+    }
+    50% {
+        transform: translate(80px , 20px);
+    }
+    75% {
+        transform: translate(10px , 10px);
+    }
+    100% {
+        transform: translate(0px , 0px);
+    }
+}
+
+.wild-enveloppe{
+    animation: wild 1s ease infinite;
+}
+
+@keyframes wild {
+    0% {
+        transform: translate(0px , 0px);
+    }
+    25% {
+        transform: translate(40px , 60px);
+    }
+    50% {
+        transform: translate(80px , -10px);
+    }
+    75% {
+        transform: translate(30px , 80px);
+    }
+    100% {
+        transform: translate(0px , 0px);
+    }
+}
