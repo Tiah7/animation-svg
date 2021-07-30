@@ -45,3 +45,24 @@ svg {
         transform: translate(0px , 0px);
     }
 }
+
+#person{
+    animation : pull  2s linear infinite;
+}
+@keyframes pull  {
+    0% {
+        transform: translate(0px , 0px);
+    }
+    50% {
+        transform: translate(20px , 10px);
+    }
+    70% {
+        transform: translate(50px , 30px);
+    }
+    75% {
+        transform: translate(10px , 10px);
+    }
+    100% {
+        transform: translate(0px , 0px);
+    }
+}
